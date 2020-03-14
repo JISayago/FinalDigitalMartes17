@@ -12,7 +12,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous">
     <link rel="stylesheet" href="{{('/css/style.css')}}">
-    <title>e-commerce</title>
+    <title>Carrito</title>
 </head>
 
 
@@ -57,60 +57,12 @@
     </div>
 
     <!-- barra de navegacion busqueda-->
+
+
     <div class="buscar">
         <nav class="navbar navbar-dark bg-primary">
             <a href="/" class="navbar-brand">Proyecto Final</a>
             <div class="barra-navegacion">
-                <ul class="nav nav-pills">
-
-                    <!--If admin se muestra administracion sino ir a mi cuenta -->
-                    <a class="text-white text-decoration-none btn btn-primary" href="/panel">Administracion</a>
-                    <!-- <a class="dropdown-item" href="#">Mi cuenta</a>-->
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white text-decoration-none btn btn-primary" data-toggle="dropdown" href="#" role="button"
-                        aria-haspopup="true" aria-expanded="false">Categoria</a>
-                        <div class="dropdown-menu" >
-                            <ul class="lista-categoria">
-
-                                @foreach ($categorias as $categoria)
-
-                                <li class="dropdown-item">
-                                    <a class="dropdown-item text-decoration-none" href="../{{$categoria->nombre_categoria}}" id="{{$categoria->nombre_categoria}}">{{$categoria->nombre_categoria}}</a>
-                                </li>
-                                @endforeach
-                            </div>
-
-                            <li class="nav-item dropdown">
-                                <a class="text-white text-decoration-none btn btn-primary" href="/carrito">Carrito</a>
-
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-white text-decoration-none btn btn-primary" data-toggle="dropdown" href="#" role="button"
-                                    aria-haspopup="true" aria-expanded="false">Información</a>
-                                    <div class="dropdown-menu">
-                                        <ul class="lista-categoria ">
-
-                                            <li class="lista-categoria-item">
-                                                <a class="dropdown-item text " href="#">Recomendaciones</a>
-                                            </li>
-
-                                            <li class="lista-categoria-item">
-                                                <a class="dropdown-item" href="#">F.A.Q.</a>
-                                            </li>
-
-                                            <li class="lista-categoria-item">
-                                                <a class="dropdown-item" href="#">Métodos de Pago</a>
-                                            </li>
-
-                                            <li class="lista-categoria-item">
-                                                <a class="dropdown-item" href="#">Envíos</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-
 
                                 <form class="form-inline" action="inicio" method="post">
                                     @csrf
@@ -121,10 +73,10 @@
                         </div>
 
                         <main >
-                            @yield('centralPagina')
+                            @yield('contenido')
                         </main>
 
-</ul>
+
                         <div class="container_redes_sociales" >
 
                             <div class="sticky-container">
@@ -152,13 +104,6 @@
                                 </ul>
                             </div>
                         </div>
-
-
-
-
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

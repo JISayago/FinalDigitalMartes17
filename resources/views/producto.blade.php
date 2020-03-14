@@ -7,11 +7,11 @@
 
                                     <div class="col-sm-4">
                                         <div class="card">
-                                            <img src="img/remera1.jpeg"  >
+                                            <img src="../img/remera1.jpeg">
                                             <div class="card-body">
                                                 <h5 class="card-title">{{$producto->nombre_producto}}</h5>
                                                 <p class="card-text">$ {{$producto->precio_producto}}</p>
-                                                <!--iria marca y cateogoria ver realciones porq tira error-->
+
                                                 <p class="card-text3">{{$producto->detalle_producto}}</p>
                                             </div>
                                         </div>
@@ -19,7 +19,7 @@
 
 
                                 </div>
-                            </div>
+
                             <br>
 
                             <form action="/carrito" method="POST">
@@ -48,5 +48,6 @@
 
 
                           </form>
+  </div>
   @endsection
 

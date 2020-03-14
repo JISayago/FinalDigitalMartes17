@@ -1,71 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-commerce</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-    <div class="container">
+@extends('layouts.carritolayout')
 
-        <!-- barra de navegacion busqueda-->
-        <div class="buscar">
-            <nav class="navbar navbar-dark bg-primary">
-                <!-- barra de navegacion 1  -->
-                <!-- lista de categoria -->
-                <!-- lista nosotros  -->
-                <!-- carrito  -->
-
-                <div class="barra-navegacion">
-                    <ul class="nav nav-pills">
-                        <a class="navbar-brand" href="/">Proyecto Final</a><br>
-
-
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                        aria-haspopup="true" aria-expanded="false">Información</a>
-                                        <div class="dropdown-menu">
-                                            <ul class="lista-categoria">
-
-                                                <li class="lista-categoria-item">
-                                                    <a href="#">Recomendaciones</a>
-                                                </li>
-
-                                                <li class="lista-categoria-item">
-                                                    <a href="#">F.A.Q.</a>
-                                                </li>
-
-                                                <li class="lista-categoria-item">
-                                                    <a href="#">Métodos de Pago</a>
-                                                </li>
-
-                                                <li class="lista-categoria-item">
-                                                    <a href="#">Envíos</a>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-
-
-                                </nav>
-                            </div>
-
-
-                            <div class="lista_carrito">
-
-                                <form class="form-inline">
-                                </form>
-                            </nav>
-                        </div>
-
-
-
-
+@section('contenido')
+<br>
+<br>
                         <div class="row">
                             <div class="col">
                                 <table class="table table-hover table-bordered">
@@ -106,22 +43,6 @@
                         </div>
 
 
-
-
-                    </div>
-
-
-
-
-
-
-                    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-
-
-
-                </div>
-            </body>
-            </html>
+ @endsection
+        </body>
+ </html>
