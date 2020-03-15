@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+
+use App\Http\Requests\ValidacionRegistros;
+
 use App\Categoria;
 
 class CategoriaController extends Controller
 {
-    public function AltaCategoria(Request $request){
+    public function AltaCategoria(ValidacionRegistros $request){
 
 
 

@@ -7,7 +7,7 @@ use App\Marca;
 use App\Producto;
 
 
-use Illuminate\Http\Request;
+use App\Http\Requests\ValidacionRegistros;
 
 
 
@@ -28,7 +28,7 @@ class ProductoController extends Controller
 
 
 
-    public function ListadoProductosBuscador(Request $request){
+    public function ListadoProductosBuscador(ValidacionRegistros $request){
 
         $buscador =  $request->get('buscador');
 
@@ -98,7 +98,7 @@ class ProductoController extends Controller
 
     }
 
-    public function AltaProducto(Request $request){
+    public function AltaProducto(ValidacionRegistros $request){
 
 
         $categorias = Categoria::all();
