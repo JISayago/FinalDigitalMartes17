@@ -42,7 +42,8 @@ Route::post('/altaMarca','MarcaController@AltaMarca');
 
 Route::get('/panel',function()
 {
-    return view("panel");
+    $valor = "vacio";
+    return view('panel',compact('valor'));
 });
 
 

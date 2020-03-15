@@ -5,7 +5,7 @@
 
 <div class="tarjetas-categoria _Tarjetas">
 
-    <div class="row">
+     <div class="row">
         @foreach($productos as $producto)
         <div class="col-sm-4">
             <div class="card _contenidoTarjeta ">

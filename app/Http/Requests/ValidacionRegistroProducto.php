@@ -38,7 +38,6 @@ class ValidacionRegistroProducto extends FormRequest
             'nombre_producto.required' => 'El nombre del producto no puede estar vacío',
             'detalle_producto.required' => 'Este campo no puede estar vacío',
             'precio_producto.required' => 'Este campo no puede estar vacío',
-
             'codigo_producto.required' => 'Este campo no puede estar vacío',
             'codigo.unique' => 'Ya existe un producto con ese nombre',
             'stock.required' => 'Este campo no puede estar vacío',

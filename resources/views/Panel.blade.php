@@ -18,6 +18,18 @@
 
 <body>
 
+    @switch($valor)
+    @case("producto")
+    <script>confirm('El producto se registró correctamente ')</script>
+        @break
+    @case("categoira")
+    <script>confirm('La categoria se registró correctamente ')</script>
+        @break
+        @case("marca")
+        <script>confirm('La marca se registró correctamente ')</script>
+        @default
+
+@endswitch
 
     <div class="conteiner">
 

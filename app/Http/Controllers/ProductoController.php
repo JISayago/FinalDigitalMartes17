@@ -117,6 +117,9 @@ class ProductoController extends Controller
         $producto->categoria_id = $request['categorias'];
 
         $producto->save();
+        $valor = "producto";
+
+        return view('/panel',compact('valor'));
 
 
     }
