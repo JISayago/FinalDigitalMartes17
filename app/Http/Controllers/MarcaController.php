@@ -1,11 +1,11 @@
 <?php
 namespace App\Http\Controllers;
-use App\Http\Requests\ValidacionRegistros;
+use App\Http\Requests\ValidacionRegistroMarca;
 use App\Marca;
 
 class MarcaController extends Controller
 {
-    public function AltaMarca(ValidacionRegistros $request){
+    public function AltaMarca(ValidacionRegistroMarca $request){
 
 
 

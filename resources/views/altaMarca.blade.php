@@ -5,7 +5,7 @@
                     @csrf
                     <div class="Marca">
 
-                        <label for="Marca"><h3>Marca :</h3></label><input class="form-control form-control-lg w-50 mb-3 @error('nombre_marca') is-invalid @enderror"  value = " {{ old('nombre_marca') }}"type="text" name="nombre_marca"  placeholder="Nombre de la Marca">
+                        <label for="Marca"><h3>Marca :</h3></label><input class="form-control form-control-lg w-50 mb-3 @error('nombre_marca') is-invalid @enderror"  value = " {{ old('nombre_marca') }}" type="text" name="nombre_marca">
                          @error('nombre_marca')
                          <span class="invalid-feedback" role="alert">
                              <strong>{{ $message }}</strong>

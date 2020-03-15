@@ -33,6 +33,7 @@ Route::get('/altaMarca',function()
     return view("altaMarca");
 });
 Route::get('/carrito','CarritoController@CarritoDesdeInicio');
+
 Route::post('/','ProductoController@AltaProducto');
 
 Route::post('/altaCategoria','CategoriaController@AltaCategoria');

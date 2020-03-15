@@ -3,7 +3,7 @@
 @section('centralPagina')
 
 <div>
-Registro exitoso de {{$valor}}
+Registro exitoso
 
 </div>
 @endsection

@@ -5,9 +5,7 @@ namespace App\Http\Controllers;
 use App\Categoria;
 use App\Marca;
 use App\Producto;
-
-
-use App\Http\Requests\ValidacionRegistros;
+use App\Http\Requests\ValidacionRegistroProducto;
 
 
 
@@ -28,7 +26,7 @@ class ProductoController extends Controller
 
 
 
-    public function ListadoProductosBuscador(ValidacionRegistros $request){
+    public function ListadoProductosBuscador(ValidacionRegistroProducto $request){
 
         $buscador =  $request->get('buscador');
 
@@ -98,7 +96,7 @@ class ProductoController extends Controller
 
     }
 
-    public function AltaProducto(ValidacionRegistros $request){
+    public function AltaProducto(ValidacionRegistroProducto $request){
 
 
         $categorias = Categoria::all();
@@ -119,8 +117,6 @@ class ProductoController extends Controller
         $producto->categoria_id = $request['categorias'];
 
         $producto->save();
-
-
 
 
     }
