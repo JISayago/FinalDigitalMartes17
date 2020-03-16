@@ -98,6 +98,8 @@ class ProductoController extends Controller
 
     public function AltaProducto(ValidacionRegistroProducto $request){
 
+        $ruta = $request->file('img_producto')->store('public/producto');
+        $nombreArchivo = basename($ruta);
 
         $categorias = Categoria::all();
 
@@ -110,7 +112,7 @@ class ProductoController extends Controller
         $producto->codigo_producto = $request['codigo_producto'];
         $precioString =$request['precio_producto'];
         $producto->precio_producto = (float)$precioString;
-        $producto->img_producto = $request['img_producto'];
+        $producto->img_producto = $nombreArchivo;
         $producto->sin_stock = 0;
         $producto->stock = $request['stock'];
         $producto->marca_id = $request['marcas'];
