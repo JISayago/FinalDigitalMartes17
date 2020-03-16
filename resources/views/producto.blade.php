@@ -7,7 +7,7 @@
 
                                     <div class="col-sm-4">
                                         <div class="card">
-                                            <img src="../img/remera1.jpeg">
+                                            <img src="/storage/productos/{{$producto->img_producto}}"  width="35%" height="35%">
                                             <div class="card-body">
                                                 <h5 class="card-title">{{$producto->nombre_producto}}</h5>
                                                 <p class="card-text">$ {{$producto->precio_producto}}</p>

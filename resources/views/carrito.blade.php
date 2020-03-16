@@ -9,8 +9,9 @@
                                     <thead>
                                         <tr>
                                             <th>Producto</th>
+                                            <th>Precio Unitario</th>
                                             <th>Cantidad</th>
-                                            <th>Precio</th>
+                                            <th>Sub-Total</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -20,15 +21,25 @@
 
                                         <tr>
                                         <td>{{$Productocarrito->nombre_producto}}</td>
+                                        <td>${{$Productocarrito->precio_producto}}</td>
                                         <td>{{$Productocarrito->cantidad_producto}}</td>
                                         <td>${{$Productocarrito->precio_producto * $Productocarrito->cantidad_producto}}</td>
+
                                         </tr>
 
                                         @endforeach
+                                        <tr>
+                                            <td>{{ " " }}</td>
+                                            <td>{{ " " }}</td>
+                                            <td>{{ " " }}</td>
+                                            <td>{{ " " }}</td>
+
+                                            </tr>
 
 
                                             <tr class="table-warning">
                                                 <th>Total</th>
+                                                <th></th>
                                                 <th></th>
                                                 <th>${{$precioTotal}} </th>
                                             </tr>

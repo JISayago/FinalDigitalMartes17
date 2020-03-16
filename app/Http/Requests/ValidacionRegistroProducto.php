@@ -26,7 +26,7 @@ class ValidacionRegistroProducto extends FormRequest
         return [
             'nombre_producto' => 'required|string|max:150',
             'detalle_producto' => 'required|string|max:150',
-            'precio_producto' => 'required|regex:/^\d{1,3}(?:\.\d\d\d)*(?:,\d{1,2})?$/',
+            'precio_producto' => 'required|regex:/^\d{1,7}(?:\.\d\d\d)*(?:,\d{0,2})?$/',
             'codigo_producto' => 'required|unique:productos',
             'stock' => 'required|numeric',
             'img_producto'=>'required|image|mimes:jpeg,png,jpg',
