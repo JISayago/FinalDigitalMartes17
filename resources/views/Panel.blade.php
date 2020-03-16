@@ -19,14 +19,20 @@
 <body>
 
     @switch($valor)
-    @case("producto")
-    <script>confirm('El producto se registró correctamente ')</script>
+    @case("p")
+    <script>alert('El producto se registró correctamente ');
+
+     </script>
         @break
-    @case("categoira")
-    <script>confirm('La categoria se registró correctamente ')</script>
+    @case("c")
+    <script>alert('La categoria se registró correctamente ');</script>
         @break
-        @case("marca")
-        <script>confirm('La marca se registró correctamente ')</script>
+        @case("m")
+        <script>alert('La marca se registró correctamente ');</script>
+        @break
+        @case("d")
+        <script>alert('El producto se eliminó correctamente ');</script>
+        @break
         @default
 
 @endswitch

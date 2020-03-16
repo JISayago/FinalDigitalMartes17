@@ -37,6 +37,6 @@
 
 <a href="/" class="btn btn-success">Cancelar</a>
 
-<a href="/eliminarProducto/{{$productoBM->producto_id}}" class="btn btn-danger">Eliminar</a>
+<a href="/panel/{{$productoBM->producto_id}}" class="btn btn-danger">Eliminar</a>
 
 @endsection

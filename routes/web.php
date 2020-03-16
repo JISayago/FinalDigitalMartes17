@@ -10,18 +10,18 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+use App\Http\Controllers\redireccionController;
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
-
 Route::get('/', 'ProductoController@ListadoProductosCategorias');
 
 Route::get('/bajamodificacion', 'ProductoController@ListadoProductosCategoriasModificarEliminar');
+
 Route::get('/altaProducto','ProductoController@ListadoProductosVariaciones');
-
-
 
 Route::get('/altaCategoria',function()
 {
@@ -43,9 +43,9 @@ Route::post('/altaMarca','MarcaController@AltaMarca');
 Route::get('/panel',function()
 {
     $valor = "vacio";
-    return view('panel',compact('valor'));
-});
 
+    return view('panel',compact('valor'));
+})->name('panel');;
 
 
 Route::post('inicio/{buscador?}', 'ProductoController@ListadoProductosBuscador');
@@ -60,7 +60,9 @@ Route::post('/carrito','CarritoController@SumandoAlCarrito');
 Route::get('/productobm/{id}', 'ProductoController@ProductoBajaModificar');
 
 
-Route::get('/eliminarProducto/{id}', 'ProductoController@EliminarProducto');
+Route::get('/panel/{id}', 'ProductoController@EliminarProducto');
+
+
 
 
 

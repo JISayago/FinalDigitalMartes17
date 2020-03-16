@@ -15,7 +15,7 @@ class MarcaController extends Controller
 
         $marca->save();
 
-        $valor = "marca";
+        $valor = "m";
 
         return view('/panel',compact('valor'));
 

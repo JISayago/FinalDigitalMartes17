@@ -117,7 +117,7 @@ class ProductoController extends Controller
         $producto->categoria_id = $request['categorias'];
 
         $producto->save();
-        $valor = "producto";
+        $valor = "p";
 
         return view('/panel',compact('valor'));
 
@@ -183,11 +183,20 @@ class ProductoController extends Controller
     public function EliminarProducto($id){
 
         Producto::where('producto_id','=',$id)->delete();
+        $accion = "e";
+
+        return redirect()->route('panel',["e"]);
 
 
+    }
 
+    public function Alert($accion){
+        if($accion == "eliminar"){
 
-        return redirect('eliminarPorducto');
+        }
+        elseif($accion == "alta"){
+            echo "<script>alert('El producto fue dado de alta correctamente')</script>";
+        }
 
     }
 

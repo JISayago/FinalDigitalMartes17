@@ -18,7 +18,7 @@ class CategoriaController extends Controller
         $categoria->nombre_categoria = $request['nombre_categoria'];
         $categoria->discontinuada = 0;
         $categoria->save();
-        $valor = "categoria";
+        $valor = "c";
 
         return view('/panel',compact('valor'));
 
