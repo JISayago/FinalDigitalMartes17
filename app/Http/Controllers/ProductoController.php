@@ -194,14 +194,5 @@ class ProductoController extends Controller
 
     }
 
-    public function Alert($accion){
-        if($accion == "eliminar"){
-
-        }
-        elseif($accion == "alta"){
-            echo "<script>alert('El producto fue dado de alta correctamente')</script>";
-        }
-
-    }
 
 }

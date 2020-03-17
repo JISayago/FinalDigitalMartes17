@@ -7,13 +7,13 @@ use App\Comprobante;
 use App\Categoria;
 use App\Producto;
 use App\User;
+use App\Http\Requests\ValidacionCantidadCompra;
 
-use Illuminate\Http\Request;
 
 class CarritoController extends Controller
 {
 
-    public function SumandoAlCarrito(Request $request){
+    public function SumandoAlCarrito(ValidacionCantidadCompra $request){
 
         $id = $request['producto_id'];
 

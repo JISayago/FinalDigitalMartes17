@@ -23,7 +23,12 @@
 
                             <form action="/carrito" method="POST">
                                 @csrf
-                            <input class="form-control form-control-lg w-25 mb-3" type="text" name="cantidad_producto"  placeholder="Cantidad..">
+                            <input class="form-control form-control-lg w-25 mb-3  @error('cantidad_producto') is-invalid @enderror" type="text" name="cantidad_producto"  placeholder="Cantidad..">
+                            @error('cantidad_producto')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
                             <input id="productoID" name="producto_id" type="hidden" value="{{$producto->producto_id}}">
 
 
