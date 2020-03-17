@@ -11,11 +11,12 @@
 |
 */
 
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', 'ProductoController@ListadoProductosCategorias');
+Route::get('/', 'ProductoController@ListadoProductosCategorias')->name('/');
 
 Route::get('/bajamodificacion', 'ProductoController@ListadoProductosCategoriasModificarEliminar');
 
@@ -34,6 +35,22 @@ Route::get('/carrito','CarritoController@CarritoDesdeInicio');
 
 Route::post('/','ProductoController@AltaProducto');
 
+Route::get('/faq', function(){
+    return view('faq');
+});
+
+Route::get('/formaspago', function(){
+    return view('formaspago');
+});
+
+Route::get('/envios', function(){
+    return view('envios');
+});
+
+Route::get('/recomendaciones', function(){
+    return view('recomendaciones');
+});
+
 Route::post('/altaCategoria','CategoriaController@AltaCategoria');
 
 Route::post('/altaMarca','MarcaController@AltaMarca');
@@ -45,7 +62,7 @@ Route::get('/panel',function()
     return view('panel',compact('valor'));
 })->name('panel');
 
-Route::post('inicio/{buscador?}', 'ProductoController@ListadoProductosBuscador');
+Route::post('inicio/{buscador?}', 'ProductoController@ListadoProductosBuscador')->name('inicio');
 
 Route::get('/{categoria}', 'ProductoController@ListadoProductosPorCategoria');
 
@@ -58,6 +75,7 @@ Route::post('/comprobante','CarritoController@GenerarComprobante');
 Route::get('/productobm/{id}', 'ProductoController@ProductoBajaModificar');
 
 Route::get('/panel/{id}', 'ProductoController@EliminarProducto');
+
 
 
 

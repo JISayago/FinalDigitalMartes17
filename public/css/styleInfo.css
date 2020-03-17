@@ -1,0 +1,31 @@
+.Recomendaciones {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.containerFAQ {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.FormaDePago {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.envios {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: red;
+}
+
+.reco {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+}

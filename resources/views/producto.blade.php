@@ -17,9 +17,9 @@
 
                         <div class="col-md-6">
 
-                            <div class="card">
-                                <img src="/storage/productos/{{$producto->img_producto}}"  width="35%" height="35%">
-                                <div class="card-body">
+                            <div class="card _contenidoTarjeta">
+                                <img src="/storage/productos/{{$producto->img_producto}}"  width="200px" height="200px">
+                                <div class="card-body  w-100 text-center">
                                     <h5 class="card-title">{{$producto->nombre_producto}}</h5>
                                     <p class="card-text">$ {{$producto->precio_producto}}</p>
                                     <p class="card-text3">{{$producto->detalle_producto}}</p>

@@ -58,6 +58,8 @@ class CarritoController extends Controller
     }
 
     public function CarritoDesdeInicio(){
+
+
         session_start();
 
 $ArrayProductos=[];
@@ -83,6 +85,8 @@ $ArrayProductos=[];
        }
 
        return view("/carrito", compact("ArrayProductos","precioTotal"));
+
+
     }
 
     public function GenerarComprobante(){

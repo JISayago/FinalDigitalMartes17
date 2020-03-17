@@ -64,8 +64,9 @@
             <div class="barra-navegacion">
                 <ul class="nav nav-pills">
 
-                    <!--If admin se muestra administracion sino ir a mi cuenta -->
-                    <a class="text-white text-decoration-none btn btn-primary" href="/panel">Administracion</a>
+
+                    <a class="text-white text-decoration-none btn btn-primary " href="/panel">Administracion</a>
+
                     <!-- <a class="dropdown-item" href="#">Mi cuenta</a>-->
 
                     <li class="nav-item dropdown">
@@ -93,19 +94,19 @@
                                         <ul class="lista-categoria ">
 
                                             <li class="lista-categoria-item">
-                                                <a class="dropdown-item text " href="#">Recomendaciones</a>
+                                                <a class="dropdown-item text " href="/recomendaciones">Recomendaciones</a>
                                             </li>
 
                                             <li class="lista-categoria-item">
-                                                <a class="dropdown-item" href="#">F.A.Q.</a>
+                                                <a class="dropdown-item" href="/faq">F.A.Q.</a>
                                             </li>
 
                                             <li class="lista-categoria-item">
-                                                <a class="dropdown-item" href="#">Métodos de Pago</a>
+                                                <a class="dropdown-item" href="formaspago">Métodos de Pago</a>
                                             </li>
 
                                             <li class="lista-categoria-item">
-                                                <a class="dropdown-item" href="#">Envíos</a>
+                                                <a class="dropdown-item" href="envios">Envíos</a>
                                             </li>
 
                                         </ul>

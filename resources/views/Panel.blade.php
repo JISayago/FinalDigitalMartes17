@@ -17,6 +17,9 @@
 
 
 <body>
+    @if(is_object(auth()->user()))
+
+
 
     @switch($valor)
     @case("p")
@@ -120,7 +123,13 @@
 
 
 
+                            @else
+                            <script>
+                             alert('Debe estar logeado para administrar');
+                             window.location= "/";
+                            </script>
 
+                            @endif
                             <!-- Optional JavaScript -->
                             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
                             <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
