@@ -11,4 +11,8 @@ class Categoria extends Model
     public $id ="categoria_id";
     public $timestamps =false;
 
+    public function marca(){
+
+        return $this->hasMany(Producto::class,'producto_id');
+    }
 }

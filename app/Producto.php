@@ -22,6 +22,12 @@ class Producto extends Model
     }
 
 
+    public function users(){
+
+        return $this->belongsToMany(User::class,'comprobantes','producto_id','id');
+    }
+
+
     public function marca(){
 
         return $this->belongsTo(Marca::class,'marca_id');

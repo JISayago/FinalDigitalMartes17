@@ -10,5 +10,9 @@ class Marca extends Model
     public $id ="marca_id";
     public $timestamps =false;
 
+    public function marca(){
+
+        return $this->hasMany(Producto::class,'producto_id');
+    }
 
 }

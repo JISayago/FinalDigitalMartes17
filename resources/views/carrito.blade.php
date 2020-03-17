@@ -46,9 +46,13 @@
                                     </tbody>
                                 </table>
                                 <div class="d-flex justify-content-center">
+
+                                <form action="/comprobante" method="POST">
+                                @csrf
                                 <button class="btn btn-primary active " type="submit" name="btnAñadirCarrito">Confirmar Compra</button>
                                 <a href="/{categoria}" id="Reset" class="btn btn-danger">Resetear Carrito</a>
                                 <a href="/" class="btn btn-success">Agregar Productos</a>
+                            </form>
                             </div>
                             </div>
                         </div>

@@ -11,7 +11,6 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">{{$producto->nombre_producto}}</h5>
                                                 <p class="card-text">$ {{$producto->precio_producto}}</p>
-
                                                 <p class="card-text3">{{$producto->detalle_producto}}</p>
                                             </div>
                                         </div>

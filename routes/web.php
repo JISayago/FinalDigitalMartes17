@@ -11,8 +11,6 @@
 |
 */
 
-use App\Http\Controllers\redireccionController;
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -45,8 +43,7 @@ Route::get('/panel',function()
     $valor = "vacio";
 
     return view('panel',compact('valor'));
-})->name('panel');;
-
+})->name('panel');
 
 Route::post('inicio/{buscador?}', 'ProductoController@ListadoProductosBuscador');
 
@@ -56,9 +53,9 @@ Route::get('/producto/{id}','ProductoController@ProductoParaCarrito');
 
 Route::post('/carrito','CarritoController@SumandoAlCarrito');
 
+Route::post('/comprobante','CarritoController@GenerarComprobante');
 
 Route::get('/productobm/{id}', 'ProductoController@ProductoBajaModificar');
-
 
 Route::get('/panel/{id}', 'ProductoController@EliminarProducto');
 

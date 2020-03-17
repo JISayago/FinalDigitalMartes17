@@ -8,6 +8,12 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
+
+    public function productos(){
+
+        return $this->belongsToMany(Producto::class,'comprobantes','id','producto_id');
+    }
+
     use Notifiable;
 
     /**

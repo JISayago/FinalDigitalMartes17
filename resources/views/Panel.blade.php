@@ -21,7 +21,6 @@
     @switch($valor)
     @case("p")
     <script>alert('El producto se registró correctamente ');
-
      </script>
         @break
     @case("c")
