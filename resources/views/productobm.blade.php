@@ -1,5 +1,5 @@
 @extends('layouts.abms')
-
+@section('contenido')
 <form action="/" method="POST" enctype="multipart/form-data">
     @csrf
     <div class="Marca_producto">
@@ -31,7 +31,7 @@
 
         <input type="file" class="" name="img_producto">
     </div>
-
+@endsection
 @section('botones')
 <button class="btn btn-primary" type="submit" name="btnModificar">Modificar</button>
 

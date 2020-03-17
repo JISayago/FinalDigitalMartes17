@@ -187,7 +187,6 @@ class ProductoController extends Controller
     public function EliminarProducto($id){
 
         Producto::where('producto_id','=',$id)->delete();
-        $accion = "e";
 
         return redirect()->route('panel',["e"]);
 

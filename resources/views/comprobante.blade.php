@@ -94,7 +94,7 @@
         </div>
     </div>
 
-    <a href="/" class="btn btn-success d-flex justify-content-center">Volver</a>
+    <a href="/{categoria}" id="Reset" class="btn btn-success d-flex justify-content-center">Volver</a>
 
 </div>
 

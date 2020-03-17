@@ -81,7 +81,7 @@
             <nav class="navbar navbar-dark bg-primary">
                 <a href="/" class="navbar-brand">Proyecto Final</a>
                 <div class="barra-navegacion">
-                    <ul class="nav nav-pills">
+                    <ul class="nav nav-pills text-white">
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"

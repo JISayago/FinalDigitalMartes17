@@ -19,6 +19,7 @@
 <body>
 
     <div class="conteiner">
+        <div class="top">
         <div class="flex-center position-ref full-height">
             <div class="top-right links bg-primary text-right ">
 
@@ -114,13 +115,14 @@
 
                                 <form class="form-inline" action="inicio" method="post">
                                     @csrf
-                                    <input class="form-control mr-sm-2" name="buscador" type="text" placeholder="Buscar.." aria-label="Search">
-                                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                                    <input class="form-control mr-sm-2 txtBuscar" name="buscador" type="text" placeholder="Buscar.." aria-label="Search">
+                                    <button class="btn btn-outline-light btnBuscar" type="submit">Buscar</button>
                                 </form>
                             </nav>
                         </div>
-
-                        <main >
+                    </div>
+<div class="cuerpo">
+                        <main class="principal" >
                             @yield('centralPagina')
                         </main>
 
@@ -153,10 +155,31 @@
                             </div>
                         </div>
 
+                    </div>
+                    <div class="divfooter">
+                        <footer class="footer links bg-primary">
+                            <div class="footIzquierda">
+                                <label>Direccion: <a href="">J. Ingenieros 260, T4000 San Miguel de Tucumán, Tucumán</a></label><br><br>
+                                <label>Teléfono: <a href="tel:0381 497-2700">0381 497-2700</a></label>
 
+                            </div>
+                            <div class="footcentro">
 
+                                <a href="/" class="navbar-brand">Proyecto Final</a>
+                            </div>
+                            <div class="footderecha">
+                                <ul>
+                                    <li><a href="">F.A.Q</a></li>
+                                    <li><a href="">Envíos</a></li>
+                                    <li><a href="">Recomendaciones</a></li>
+                                    <li><a href="">Métodos de Pago</a></li>
 
+                                </ul>
 
+                            </div>
+
+                        </footer>
+                    </div>
 
 
 

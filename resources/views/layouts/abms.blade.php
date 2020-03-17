@@ -67,14 +67,14 @@
                             </nav>
                         </div>
 
-                        <main >
-                            @yield('botones')
-                        </main>
+
 
 </ul>
-
-          </div>
-
+          <main >
+              @yield('contenido')
+            @yield('botones')
+        </main>
+    </div>
      </body>
 
 </html>

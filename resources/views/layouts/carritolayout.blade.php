@@ -19,6 +19,7 @@
 <body>
 
     <div class="conteiner">
+        <div class="top">
         <div class="flex-center position-ref full-height">
             <div class="top-right links bg-primary text-right ">
 
@@ -71,7 +72,8 @@
                                 </form>
                             </nav>
                         </div>
-
+                        </div>
+<div class="cuerpo">
                         <main >
                             @yield('contenido')
                         </main>
@@ -103,6 +105,31 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                        </div>
+                        <div class="divfooter">
+                            <footer class="footer links bg-primary">
+                                <div class="footIzquierda">
+                                    <label>Direccion: <a href="">J. Ingenieros 260, T4000 San Miguel de Tucumán, Tucumán</a></label><br><br>
+                                    <label>Teléfono: <a href="tel:0381 497-2700">0381 497-2700</a></label>
+
+                                </div>
+                                <div class="footcentro">
+
+                                    <a href="/" class="navbar-brand">Proyecto Final</a>
+                                </div>
+                                <div class="footderecha">
+                                    <ul>
+                                        <li><a href="">F.A.Q</a></li>
+                                        <li><a href="">Envíos</a></li>
+                                        <li><a href="">Recomendaciones</a></li>
+                                        <li><a href="">Métodos de Pago</a></li>
+
+                                    </ul>
+
+                                </div>
+
+                            </footer>
                         </div>
 
     <!-- Optional JavaScript -->
