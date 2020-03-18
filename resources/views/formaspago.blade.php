@@ -7,10 +7,15 @@
 @section('contenido')
 
 <div class="FormaDePago">
+<h2>Formas de Pago</h2>
+<br>
+<br>
+<br>
+
     <ul>
         <li>
             <p>
-                ¡Realizá tu pago!
+                <h5>¡Realizá tu pago!</h5>
                 <br>
                 <br>
                 <br>
@@ -26,7 +31,7 @@
         <br>
         <li>
             <p>
-                Elegí el tipo de pago
+               <h5> Elegí el tipo de pago</h5>
                 <br>
                 <br>
                 <br>

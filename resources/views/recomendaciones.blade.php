@@ -14,7 +14,7 @@
         Realizá tus pedidos en cualquier momento y lugar, de forma eficiente, ahorrando tiempo y dinero con cada click.
         <br>
         <br>
-        PROCESO DE COMPRA
+        <h4>PROCESO DE COMPRA</h4>
         <br>
         <br>
         Conocé paso a paso cómo podés generar tu pedido:
@@ -23,7 +23,7 @@
 
     <ul>
         <li>
-            <p>1. Registrate en Distrito Moda
+            <p><h5>1. Registrate en Distrito Moda</h5>
                 <br>
                 <br>
                 ● Creá tu usuario ingresando tu dirección de correo electrónico.
@@ -32,7 +32,7 @@
         <br>
         <li>
             <p>
-                2. Realizá tu pedido por marca
+               <h5> 2. Realizá tu pedido por marca</h5>
                 <br>
                 <br>
                 ● Seleccioná los artículos de las marcas de tu preferencia y agregalos al carrito.
@@ -44,7 +44,7 @@
         <br>
         <li>
             <p>
-                3. Elegí el medio de envío
+               <h5>3. Elegí el medio de envío</h5>
                 <br>
                 <br>
                 ● Realizamos envíos a través de:
@@ -65,7 +65,7 @@
         <br>
         <li>
             <p>
-                4 Elegí el tipo de pago
+                <h5>4 Elegí el tipo de pago</h5>
                 <br>
                 <br>
 
@@ -80,7 +80,7 @@
         <li>
             <p>
 
-                5. ¡Es importante saber!
+                <h5>5. ¡Es importante saber!</h5>
                 <br>
                 <br>
 
@@ -93,7 +93,7 @@
         <br>
         <li>
             <p>
-                6. ¡Realizá tu pago!
+                <h5>6. ¡Realizá tu pago!</h5>
                 <br>
                 <br>
 

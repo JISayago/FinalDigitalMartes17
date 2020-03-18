@@ -80,7 +80,7 @@
             cursor: pointer;
         }
         .sticky li:hover {
-            margin-left: -115px;
+            margin-left: -85px;
         }
         .sticky li img {
             float: left;
@@ -89,6 +89,7 @@
         .sticky li p {
             padding-top: 5px;
             margin: 0px;
+            float: left;
             line-height: 16px;
             font-size: 11px;
         }

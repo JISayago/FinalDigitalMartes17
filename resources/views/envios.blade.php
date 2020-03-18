@@ -6,15 +6,20 @@
 
 @section('contenido')
 <div class="Envíos">
+    <h2>Como Se Hacen Los Envíos</h2>
+    <br>
+    <br>
+    <br>
+
     <p>
-        <h3>Órdenes</h3>
+        <h5>Órdenes</h5>
         <br>
         <br>
         Los pedidos marcados como envío consolidado se empacan en Distrito Moda en bolsas de plástico por cada vendedor.
         <br>
         <br>
 
-        <h3>Empaque y envío</h3>
+        <h5>Empaque y envío</h5>
         <br>
         <br>
 
@@ -23,14 +28,14 @@
         <br>
         <br>
 
-        <h3>Entrega al comprador</h3>
+        <h5>Entrega al comprador</h5>
         <br>
         <br>
 
         Los compradores reciben su pedido en una sola entrega y se les cobra una sola tarifa de envío.
         <br>
         <br>
-        <h3>Medios de pago</h3>
+        <h5>Medios de pago</h5>
         <br>
         <br>
 

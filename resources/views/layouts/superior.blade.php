@@ -170,10 +170,10 @@
                             </div>
                             <div class="footderecha">
                                 <ul>
-                                    <li><a href="">F.A.Q</a></li>
-                                    <li><a href="">Envíos</a></li>
-                                    <li><a href="">Recomendaciones</a></li>
-                                    <li><a href="">Métodos de Pago</a></li>
+                                    <li><a href="faq">F.A.Q</a></li>
+                                    <li><a href="envios">Envíos</a></li>
+                                    <li><a href="recomendaciones">Recomendaciones</a></li>
+                                    <li><a href="formaspago">Métodos de Pago</a></li>
 
                                 </ul>
 

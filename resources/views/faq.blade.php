@@ -7,27 +7,34 @@
 @section('contenido')
 
 <div class="containerFAQ">
+<h2>Preguntas Frecuentes</h2>
+<br>
+<br>
+<br>
+
     <ul>
         <li>
-            1. Nuestra página es un gran catálogo Online, donde podés registrarte, hacer la búsqueda de tu preferencia y empezar tu proceso de compra en un solo lugar.
+            <h5>1. Nuestra página es un gran catálogo Online.</h5>
+            <br>
+             donde podés registrarte, hacer la búsqueda de tu preferencia y empezar tu proceso de compra en un solo lugar.
         </li>
         <br>
         <li>
-            2. ¿Hay un mínimo compra? ¿Dónde lo puedo ver?
+            <h5>2. ¿Hay un mínimo compra? ¿Dónde lo puedo ver?</h5>
             <br>
             <br>
             Si, cada tienda tiene un Monto Mínimo de compra para poder acceder a los precios mayoristas indicados, el cual se encuentra ubicado en la sección TIENDAS debajo de cada Logo.
         </li>
         <br>
         <li>
-            3. ¿Puedo realizar una compra mínima con prendas de Distintas Marcas?
+            <h5>3. ¿Puedo realizar una compra mínima con prendas de Distintas Marcas?</h5>
             <br>
             <br>
             Realizá todas las compras que desees, cumpliendo el monto mínimo de cada marca. Podés elegir el número de prendas por talle o color según tu objetivo de inversión.
         </li>
         <br>
         <li>
-            4. ¿Qué sucede si compro en dos o más tiendas?
+           <h5> 4. ¿Qué sucede si compro en dos o más tiendas?</h5>
             <br>
             <br>
 
@@ -39,14 +46,14 @@
         </li>
         <br>
         <li>
-            5. ¿Los precios indicados son mayoristas?
+            <h5>5. ¿Los precios indicados son mayoristas?</h5>
             <br>
             <br>
             Si, son precios finales.
         </li>
         <br>
         <li>
-            6. ¿Cómo sé que recibieron mi pedido?
+           <h5> 6. ¿Cómo sé que recibieron mi pedido?</h5>
             <br>
             <br>
 
@@ -56,18 +63,18 @@
         </li>
         <br>
         <li>
-            7. ¿Cómo realizo mi compra?
+            <h5>7. ¿Cómo realizo mi compra?</h5>
             <br>
             <br>
 
-            7.1 Registrate en Distrito Moda
+            <h5>7.1 Registrate en Distrito Moda</h5>
             <br>
             Creá tu usuario ingresando tu dirección de correo electrónico.
             <br>
-            7.2 Realizá tu pedido por marca
+            <h5>7.2 Realizá tu pedido por marca</h5>
             <br>
             <br>
-            7.3 Elegí el medio de envío
+            <h5>7.3 Elegí el medio de envío</h5>
             <br>
             <br>
             Correo Argentino a sucursal o domicilio.
@@ -77,17 +84,17 @@
             Vía Cargo.
             <br>
 
-            7.4 Elegí el tipo de pago
+            <h5>7.4 Elegí el tipo de pago</h5>
             <br>
             <br>
-            7.5 ¡Es importante saber!
+            <h5>7.5 ¡Es importante saber!</h5>
             <br>
             <br>
             Que cada marca tendrá que confirmarte la disponibilidad del stock de tus productos seleccionados.
             <br>
             En Distrito Moda todas las marcas son fabricantes mayoristas y cuentan con local físico de venta al público. La dinámica de ventas es continua.
             <br>
-            7.6 ¡Realizá tu pago!
+            <h5>7.6 ¡Realizá tu pago!</h5>
             <br>
 
             Ya la marca se comunicó con vos y te confirmó el stock disponible, ¡ahora podés realizar el pago!
@@ -96,7 +103,7 @@
         </li>
         <br>
         <li>
-            8. ¿Cómo se realizan los envíos?
+            <h5>8. ¿Cómo se realizan los envíos?</h5>
             <br>
             <br>
 
@@ -108,21 +115,21 @@
         </li>
         <br>
         <li>
-            9. ¿Qué pasa si necesito una factura?
+            <h5>9. ¿Qué pasa si necesito una factura?</h5>
             <br>
             <br>
             Distrito Moda es un servicio que conecta compradores y vendedores en todo el país. Si necesitás factura fiscal, hablalo directamente con la marca.
         </li>
         <br>
         <li>
-            10. ¿Tienen una tienda en físico?
+            <h5>10. ¿Tienen una tienda en físico?</h5>
             <br>
             <br>
             Distrito Moda es el mercado Online mayorista de Av. Avellaneda (en Flores). Por eso, todas tus compras son vía Web, los 7 días a la semana, las 24 horas del día.
         </li>
         <br>
         <li>
-            11. ¿Dónde veo las medidas de los talles?
+            <h5>11. ¿Dónde veo las medidas de los talles?</h5>
             <br>
             <br>
             Al ingresar a tu cuenta Distrito Moda, entrá a la sección “Tiendas”, elegí la marca de tu preferencia, hacé click en el botón “enviale un mensaje a” y ahí, a través de nosotros, preguntale directamente las dimensiones de cada talle.
