@@ -6,8 +6,7 @@ use App\Categoria;
 use App\Marca;
 use App\Producto;
 use App\Http\Requests\ValidacionRegistroProducto;
-
-
+use Illuminate\Http\Request;
 
 class ProductoController extends Controller
 {
@@ -26,7 +25,7 @@ class ProductoController extends Controller
 
 
 
-    public function ListadoProductosBuscador(ValidacionRegistroProducto $request){
+    public function ListadoProductosBuscador(Request $request){
 
         $buscador =  $request->get('buscador');
 
