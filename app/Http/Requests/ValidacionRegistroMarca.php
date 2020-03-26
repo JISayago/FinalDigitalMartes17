@@ -31,7 +31,6 @@ class ValidacionRegistroMarca extends FormRequest
     {
         return[
         'nombre_marca.required' => 'El nombre de la marca no puede estar vacío',
-        'nombre_marca.unique' => 'Ya existe una marca con ese nombre',
-        ];
+     ];
     }
 }
