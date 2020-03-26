@@ -138,11 +138,6 @@
     </div>
 </div>
 
-<!-- Acá cargas un archivos  -->
-<div class="input-group mb-3">
-
-    <input type="file" class="" name="img_producto">
-</div>
 @endsection
 @section('botones')
 
