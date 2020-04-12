@@ -28,8 +28,8 @@ class CarritoController extends Controller
         $nomb = $id.trim($producto->nombre_producto);
 
         session_start();
-        $_SESSION[$nomb] = $variableCarrito;
 
+        $_SESSION[$nomb] = $variableCarrito;
 
         $ArrayProductos = [];
 

@@ -111,8 +111,10 @@ class ProductoController extends Controller
         $producto->nombre_producto = $request['nombre_producto'];
         $producto->detalle_producto = $request['detalle_producto'];
         $producto->codigo_producto = $request['codigo_producto'];
-        $precioString =$request['precio_producto'];
-        $producto->precio_producto = (float)$precioString;
+        $precioString = ($request['precio_producto']);
+        $precioStringPunto = str_replace( "," , "." , $precioString);
+        $precioDecimal = floatval($precioStringPunto);
+        $producto->precio_producto = $precioDecimal;
         $producto->img_producto = $nombreArchivo;
         $producto->sin_stock = 0;
         $producto->stock = $request['stock'];

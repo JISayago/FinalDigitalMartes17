@@ -5,9 +5,9 @@ namespace App;
 class Carrito
 {
     public $nombreProducto;
-
     public $cantidadProducto;
     public $precioProducto;
+    public $img_producto;
 
     public function __construct($nombreProducto,$cantidadProducto,$precioProducto,$imagen)
     {
