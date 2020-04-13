@@ -40,7 +40,7 @@ class ValidacionRegistroProducto extends FormRequest
             'precio_producto.required' => 'Este campo no puede estar vacío',
             'precio_producto.regex' => 'Formato incorrecto, por favor use numeros decimales',
             'codigo_producto.required' => 'Este campo no puede estar vacío',
-            'codigo.unique' => 'Ya existe un producto con ese nombre',
+            'codigo_producto.unique' => 'Ya existe un producto con ese codigo',
             'stock.required' => 'Este campo no puede estar vacío',
             'stock.numeric' => 'Este campo debe ser numérico',
             'img_producto.required' => 'Debe seleccionar una imagen para el producto',

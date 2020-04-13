@@ -59,7 +59,7 @@
 
     <!-- barra de navegacion busqueda-->
     <div class="buscar">
-        <nav class="navbar navbar-dark bg-primary">
+        <nav class="navbar navbar-dark bg-primary ">
             <a href="/" class="navbar-brand">Proyecto Final</a>
             <div class="barra-navegacion">
                 <ul class="nav nav-pills">
@@ -68,23 +68,25 @@
                     <a class="text-white text-decoration-none btn btn-primary " href="/panel">Administracion</a>
 
                     <!-- <a class="dropdown-item" href="#">Mi cuenta</a>-->
+                    <li class="nav-item dropdown">
+                        <a class="text-white text-decoration-none btn btn-primary" href="/carrito">Carrito</a>
+                    </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white text-decoration-none btn btn-primary" data-toggle="dropdown" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">Categoria</a>
+
                         <div class="dropdown-menu" >
                             <ul class="lista-categoria">
 
                                 @foreach ($categorias as $categoria)
 
-                                <li class="dropdown-item">
+                                <li class="nav-item dropdown">
                                     <a class="dropdown-item text-decoration-none" href="../{{$categoria->nombre_categoria}}" id="{{$categoria->nombre_categoria}}">{{$categoria->nombre_categoria}}</a>
                                 </li>
                                 @endforeach
                             </div>
 
-                            <li class="nav-item dropdown">
-                                <a class="text-white text-decoration-none btn btn-primary" href="/carrito">Carrito</a>
 
 
                                 <li class="nav-item dropdown">
@@ -134,23 +136,23 @@
                                 <ul class="sticky">
                                     <li>
                                         <img src="../img/facebook2.png" width="32" height="32">
-                                        <p><a href="https://www.facebook.com/programacionnet" target="_blank">Síguenos en<br>Facebook</a></p>
+                                        <p><a href="https://www.facebook.com/digitalhouse.edu" target="_blank">Síguenos en<br>Facebook</a></p>
                                     </li>
 
                                     <li>
                                         <img src="../img/twitter.png" width="32" height="32">
-                                        <p><a href="https://twitter.com/noprog" target="_blank">Síguenos en<br>Twitter</a></p>
+                                        <p><a href="https://twitter.com/_digitalhouse" target="_blank">Síguenos en<br>Twitter</a></p>
                                     </li>
 
                                     <li>
                                         <img src="../img/youtube.png" width="32" height="32">
-                                        <p><a href="http://www.youtube.com/programacionnet" target="_blank">Subscríbete en<br>YouTube</a></p>
+                                        <p><a href="https://www.youtube.com/watch?v=_vHNUjCAbVQ" target="_blank">Subscríbete en<br>YouTube</a></p>
                                     </li>
 
 
                                     <li>
                                         <img src="../img/instagram2.png" width="32" height="32">
-                                        <p><a href="https://www.instagram.com/programacionnet" target="_blank">Síguenos en <br>Instagram</a></p>
+                                        <p><a href="https://www.instagram.com/_digitalhouse/" target="_blank">Síguenos en <br>Instagram</a></p>
                                     </li>
                                 </ul>
                             </div>

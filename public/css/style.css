@@ -18,7 +18,7 @@
     }
     
     .cuerpo {
-        margin-bottom: 100vh;
+        margin-bottom: 50vh;
     }
     
     a {
@@ -117,7 +117,7 @@
             position: relative;
             bottom: 0px;
             width: 100%;
-            overflow: hidden;
+            overflow: auto;
         }
         .footer .footIzquierda {
             display: inline-block;

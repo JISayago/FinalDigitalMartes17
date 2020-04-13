@@ -61,7 +61,7 @@
 
 
     <div class="buscar">
-        <nav class="navbar navbar-dark bg-primary">
+        <nav class="navbar navbar-dark bg-primary ">
             <a href="/" class="navbar-brand">Proyecto Final</a>
             <div class="barra-navegacion">
 
@@ -85,17 +85,17 @@
                                 <ul class="sticky">
                                     <li>
                                         <img src="../img/facebook2.png" width="32" height="32">
-                                        <p><a href="https://www.facebook.com/programacionnet" target="_blank">Síguenos en<br>Facebook</a></p>
+                                        <p><a href="https://www.facebook.com/digitalhouse.edu" target="_blank">Síguenos en<br>Facebook</a></p>
                                     </li>
 
                                     <li>
                                         <img src="../img/twitter.png" width="32" height="32">
-                                        <p><a href="https://twitter.com/noprog" target="_blank">Síguenos en<br>Twitter</a></p>
+                                        <p><a href="https://www.youtube.com/watch?v=_vHNUjCAbVQ" target="_blank">Síguenos en<br>Twitter</a></p>
                                     </li>
 
                                     <li>
                                         <img src="../img/youtube.png" width="32" height="32">
-                                        <p><a href="http://www.youtube.com/programacionnet" target="_blank">Subscríbete en<br>YouTube</a></p>
+                                        <p><a href="https://www.instagram.com/_digitalhouse/" target="_blank">Subscríbete en<br>YouTube</a></p>
                                     </li>
 
 
