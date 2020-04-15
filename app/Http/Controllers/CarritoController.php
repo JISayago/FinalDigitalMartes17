@@ -101,7 +101,6 @@ $ArrayProductos=[];
 
     public function GenerarComprobante(){
 
-        $categorias = Categoria::all();
 
         $now = new \DateTime();
 
@@ -140,7 +139,7 @@ $ArrayProductos=[];
                 $comprobante->save();
 
             }
-        return view('/comprobante', compact('categorias','comprobante','ArrayProductos','codigo','precioTotal'));
+        return view('/comprobante', compact('comprobante','ArrayProductos','codigo','precioTotal'));
     }
 
 }

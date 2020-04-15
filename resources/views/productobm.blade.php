@@ -5,7 +5,7 @@
 <div class="row justify-content-center ">
     <div class="col-md-8 mt-5">
         <div class="card">
-            <div class="card-header bg-primary text-white text-center font-weight-bolder">{{ __('Alta de Producto') }}</div>
+            <div class="card-header bg-primary text-white text-center font-weight-bolder">{{ __('Baja/Modificacion de Producto') }}</div>
 
             <div class="card-body">
                 <form action="/" method="POST" enctype="multipart/form-data">
