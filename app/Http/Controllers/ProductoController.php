@@ -116,8 +116,10 @@ class ProductoController extends Controller
         $precioDecimal = floatval($precioStringPunto);
         $producto->precio_producto = $precioDecimal;
         $producto->img_producto = $nombreArchivo;
+
         $producto->sin_stock = 0;
         $producto->stock = $request['stock'];
+
         $producto->marca_id = $request['marcas'];
         $producto->categoria_id = $request['categorias'];
 
