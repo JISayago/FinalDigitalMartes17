@@ -27,11 +27,18 @@ class CarritoController extends Controller
 
         $nomb = $id.trim($producto->nombre_producto);
 
+        $ArrayProductos = [];
+
+        $valor = auth()->user();
+
+
+        if(!is_null($valor)){
+
         session_start();
 
         $_SESSION[$nomb] = $variableCarrito;
 
-        $ArrayProductos = [];
+
 
         foreach($_SESSION as $productoCarrito){
              if(is_object($productoCarrito)){
@@ -46,6 +53,9 @@ class CarritoController extends Controller
              }
 
         }
+    }
+
+
         $precioTotal = 0;
 
         foreach($ArrayProductos as $producto){
